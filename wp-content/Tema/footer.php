@@ -36,7 +36,7 @@
         <!-- logo footer -->
         <div class="col-md-6 col-sm-12">
           <div class="footer-box">
-            <a href="index.html">
+            <a href="<?php echo get_home_url()?>">
               <img class="col text-center float-right mt-4 logo-footer" src="<?php echo the_field('logo', 'option'); ?>" width="auto" height="auto"
                 alt="Filhas do Vento">
             </a>
