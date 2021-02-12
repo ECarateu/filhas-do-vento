@@ -22,13 +22,13 @@ if ( have_posts() ) :
     </nav>
 
       <div class="container">
-           <h4 class="text-uppercase"><?php the_title(); ?></h4>
+           <h4 class="text-uppercase mt-5"><?php the_title(); ?></h4>
        
       </div>
     </section>
 
 
-    <section class="container">
+    <section class="container mt-5">
      <?php the_content(); ?>
     </section>
 

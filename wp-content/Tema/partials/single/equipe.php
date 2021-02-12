@@ -22,11 +22,13 @@ get_header(); ?>
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-
             <div id="content">
               <img class="img-responsive col" src="<?php echo get_field('foto');?>" >
             </div>
             <div class="fundo-integrante" style="background-color: <?php echo get_field('esquema_de_cor');?>"></div>
+            <small id="mensagem" class="form-text text-muted">
+              foto: Priscilla Melo
+            </small>
           </div>
           <div class="col-sm-6 text-center">
             <h1 class="text-uppercase mt-5"><?php the_title();?></h1>

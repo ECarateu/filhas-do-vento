@@ -25,7 +25,7 @@
       <div class="row">
        <!-- logo -->
        <div class="col-sm-2 logo-responsive text-center">
-          <a href="<?php echo get_home_url()?>">
+          <a href="<?php echo get_home_url();?>">
             <img src="<?php echo the_field('logo', 'option') ?>" alt="Filhas do Vento" width="100px;" height="100px;">
           </a>
         </div>
