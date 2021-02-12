@@ -1,4 +1,3 @@
-
 <?php
 get_header(); ?>
 <section class="exposicao mt-5">
@@ -18,7 +17,7 @@ get_header(); ?>
             </a>
           </div>
           <div class="mt-5 text-center img-mensagem">
-            <a href="<?php echo get_home_url();?>">
+            
               <img class="col logo-footer" width="auto" height="auto" src="<?php the_field('logo', 'option');?>"  alt="Filhas do Vento">
             </a>
           </div>
