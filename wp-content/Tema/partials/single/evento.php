@@ -28,7 +28,7 @@ if ( have_posts() ) :
     </section>
 
 
-    <section class="container">
+    <section class="container mt-5">
      <?php the_content(); ?>
     </section>
 
