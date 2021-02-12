@@ -10,15 +10,10 @@ if ( have_posts() ) :
 ?>
 <div class= "row">
 <div class="col-sm-8 mt-5 mb-3 ml-3">
-<p class="text-uppercase font-weight-bold pl-1 pt-6">Afrocinergia</p>
+<p class="text-uppercase font-weight-bold pl-1 pt-6"> <?php the_title();?></p>
 <div class="bordergreen pl-3 pr-3 pt-3 mb-2">
                 <p class="font-weight-bold">Descrição da proposta:</p>
-                <p>O projeto AfroCINErgia é uma iniciativa do Coletivo Filhas do Vento que tem como objetivo reunir
-                  mulheres negras para um momento de integração, interação e debate em torno de obras cinematográficas
-                  com abordagem afrocentrada e/ou temáticas que contemplem aspectos da questão étnico-racial e de
-                  gênero. O projeto tem caráter itinerante podendo ser realizado nos espaços de colaboradoras (es),
-                  espaços cedidos por instituições parceiras e/ou em locais públicos com infraestrutura necessária à
-                  realização da atividade.</p>
+                <p> <?php the_content(); ?></p>
               </div>
               
  </div>
@@ -45,5 +40,3 @@ endif;?>
     endwhile;
     wp_reset_postdata();
 endif; ?>
-
-
