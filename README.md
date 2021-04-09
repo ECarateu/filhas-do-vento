@@ -1,3 +1,3 @@
 # Site Filhas do Vento.
-http://www.filhas.do.vento.com.br/
+http://filhasdoventocoletivo.com.br/
 
